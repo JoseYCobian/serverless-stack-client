@@ -1,11 +1,14 @@
 const config = {
+  STRIPE_KEY: "pk_test_51J74OtHmjCJ5ysRlACH7NOc2RX8L0V6OvqRXOxM40o8HFLUV69DjcmFiD5kCToc8iaIKqQEdznssNE9wZhPXq7KH005f2yGz3M",
+  
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-upload-approovy",
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://k36bpit6zb.execute-api.us-east-1.amazonaws.com/prod ",
+    URL: "https://k36bpit6zb.execute-api.us-east-1.amazonaws.com/prod",
   },
   cognito: {
     REGION: "us-east-1",
